@@ -15,7 +15,7 @@ function App() {
 
   const normalize = str => str.toLowerCase().trim().replace(/s$/, '');
 
-  const addFood = (food) => {
+  const addFood = food => {
     if (!inputFoods.includes(food)) {
       setInputFoods(prev => [...prev, food]);
     }
@@ -23,7 +23,7 @@ function App() {
     setShowSuggestions(false);
   };
 
-  const removeFood = (food) => {
+  const removeFood = food => {
     setInputFoods(prev => prev.filter(f => f !== food));
   };
 
@@ -41,20 +41,22 @@ function App() {
   };
 
   const filteredSuggestions = allFoods.filter(food =>
-    normalize(food).includes(normalize(search))
+    normalize(food).includes(normalize(search)),
   );
 
-  const handleKeyDown = (e) => {
+  const handleKeyDown = e => {
     if (e.key === 'Enter' && filteredSuggestions.length > 0) {
       e.preventDefault();
       addFood(filteredSuggestions[0]);
     }
   };
 
-  const getNutrientsForFood = (food) => {
+  const getNutrientsForFood = food => {
     const matchingNutrients = [];
     allNutrientFoods.forEach(nutrient => {
-      if (nutrient.foods.some(source => normalize(source) === normalize(food))) {
+      if (
+        nutrient.foods.some(source => normalize(source) === normalize(food))
+      ) {
         matchingNutrients.push(nutrient.name);
       }
     });
@@ -63,12 +65,12 @@ function App() {
 
   const coveredEssentialNutrients = nutrientData.filter(nutrient =>
     nutrient.foods.some(source =>
-      inputFoods.some(food => normalize(source) === normalize(food))
-    )
+      inputFoods.some(food => normalize(source) === normalize(food)),
+    ),
   );
 
   const essentialCoveragePercent = Math.round(
-    (coveredEssentialNutrients.length / nutrientData.length) * 100
+    (coveredEssentialNutrients.length / nutrientData.length) * 100,
   );
 
   return (
@@ -81,15 +83,16 @@ function App() {
       <div className="relative max-w-2xl mx-auto mb-10">
         <input
           type="text"
-          placeholder="Type a food..."
+          placeholder="Type qualified foods here to check nutrients for the day..."
           value={search}
-          onChange={(e) => {
+          onChange={e => {
             setSearch(e.target.value);
             setShowSuggestions(true);
           }}
           onKeyDown={handleKeyDown}
           className="w-full p-3 border border-amber-200 rounded-xl shadow-sm focus:ring-2 focus:ring-amber-300 focus:outline-none"
         />
+
         {showSuggestions && search && (
           <div className="absolute z-10 w-full border border-amber-100 rounded-xl bg-white shadow max-h-48 overflow-y-auto mt-1">
             {filteredSuggestions.length > 0 ? (
@@ -111,7 +114,6 @@ function App() {
 
       {/* Main Content */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-7xl mx-auto">
-        
         {/* Food List */}
         <div className="space-y-8 md:col-span-1">
           <div>
@@ -177,7 +179,10 @@ function App() {
                 ({essentialCoveragePercent}%)
               </span>
             </h2>
-            <NutrientTable inputFoods={inputFoods} nutrientData={nutrientData} />
+            <NutrientTable
+              inputFoods={inputFoods}
+              nutrientData={nutrientData}
+            />
           </div>
 
           <div>
@@ -202,7 +207,9 @@ function App() {
               exit={{ scale: 0.8, opacity: 0 }}
               className="bg-white p-8 rounded-2xl shadow-md text-center space-y-6"
             >
-              <h3 className="text-lg font-bold text-amber-800">Clear all selected foods?</h3>
+              <h3 className="text-lg font-bold text-amber-800">
+                Clear all selected foods?
+              </h3>
               <div className="flex justify-center gap-6">
                 <button
                   onClick={confirmRemoveAll}
