@@ -138,8 +138,7 @@ export const nutrientData = [
   {
     name: 'VITAMIN A 1',
     foods: [
-      'Beef Liver',
-      'Lamb Liver',
+      'Liver',
       'Cod liver oil',
       'King mackerel',
       'Salmon',
@@ -186,7 +185,7 @@ export const nutrientData = [
   {
     name: 'VITAMIN B7 (BIOTIN)',
     foods: [
-      'Beef liver',
+      'Liver',
       'Eggs',
       'Salmon',
       'Avocado',
