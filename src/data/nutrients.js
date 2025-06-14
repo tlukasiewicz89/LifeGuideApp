@@ -219,7 +219,7 @@ export const nutrientData = [
       'Coriander',
       'Rose Hips',
       'Guava',
-      'Kiwis',
+      'Kiwi',
       'Mangos',
       'Papaya',
       'Oranges',
