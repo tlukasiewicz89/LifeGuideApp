@@ -61,7 +61,7 @@ export const nutrientData = [
   {
     name: 'IRON',
     foods: [
-      'Organ meat',
+      'Organs',
       'Blood',
       'Dried thyme, parsley, spearmint, black pepper, marjoram',
       'Dried seaweed',
@@ -92,7 +92,7 @@ export const nutrientData = [
   {
     name: 'ZINC',
     foods: [
-      'Organ meat',
+      'Organs',
       'Oysters',
       'Hemp Seeds',
       'Hazelnuts',
@@ -105,7 +105,7 @@ export const nutrientData = [
   {
     name: 'COPPER',
     foods: [
-      'Organ meats',
+      'Organs',
       'Oysters',
       'Salmon',
       'Sesame Seeds',
@@ -116,7 +116,7 @@ export const nutrientData = [
   },
   {
     name: 'MANGANESE',
-    foods: ['Organ Meats', 'Pine Nuts', 'Mussels', 'Hazelnuts', 'Pecans'],
+    foods: ['Organs', 'Pine Nuts', 'Mussels', 'Hazelnuts', 'Pecans'],
   },
   {
     name: 'SELENIUM',
@@ -146,12 +146,12 @@ export const nutrientData = [
   },
   {
     name: 'VITAMIN B1 (THIAMIN)',
-    foods: ['Organ Meats', 'Flax seed', 'Salmon', 'Mussles'],
+    foods: ['Organs', 'Flax seed', 'Salmon', 'Mussles'],
   },
   {
     name: 'VITAMIN B2 (RIBOFLAVIN)',
     foods: [
-      'Organ Meats',
+      'Organs',
       'Skirt Steak',
       'Salmon',
       'Shiitake Mushrooms',
@@ -161,7 +161,7 @@ export const nutrientData = [
   {
     name: 'VITAMIN B3 (NIACIN)',
     foods: [
-      'Organ Meats',
+      'Organs',
       'Yellowfin',
       'Chicken Breast',
       'Portabello Mushrooms',
@@ -171,7 +171,7 @@ export const nutrientData = [
   {
     name: 'VITAMIN B5 (PANTOTHENIC ACID)',
     foods: [
-      'Organ Meats',
+      'Organs',
       'Shiitake Mushrooms',
       'Salmon',
       'Chicken Breast',
@@ -180,7 +180,7 @@ export const nutrientData = [
   },
   {
     name: 'VITAMIN B6',
-    foods: ['Organ Meats', 'Salmon', 'Chicken Breast', 'Skirt Steak'],
+    foods: ['Organs', 'Salmon', 'Chicken Breast', 'Skirt Steak'],
   },
   {
     name: 'VITAMIN B7 (BIOTIN)',
@@ -195,12 +195,12 @@ export const nutrientData = [
   },
   {
     name: 'VITAMIN B9 (FOLATE)',
-    foods: ['Organ Meat', 'Asparagus', 'Avocado', 'Mango'],
+    foods: ['Organs', 'Asparagus', 'Avocado', 'Mango'],
   },
   {
     name: 'VITAMIN B12',
     foods: [
-      'Organ Meats',
+      'Organs',
       'Clams',
       'Octopus',
       'Oysters',
@@ -227,7 +227,7 @@ export const nutrientData = [
   },
   {
     name: 'VITAMIN D',
-    foods: ['Organ Meats', 'Salmon', 'Sardines', 'Eggs'],
+    foods: ['Organs', 'Salmon', 'Sardines', 'Eggs'],
   },
   {
     name: 'VITAMIN D3 (CHOLECALCIFEROL)',
@@ -239,7 +239,7 @@ export const nutrientData = [
   },
   {
     name: 'VITAMIN K1 (PHYLLOQUINONE)',
-    foods: ['Organ Meat', 'Eggs'],
+    foods: ['Organs', 'Eggs'],
   },
   {
     name: 'VITAMIN K2 (MENAQUINONES, MENAQUINONE-4)',
