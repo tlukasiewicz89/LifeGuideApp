@@ -16,7 +16,6 @@ export const bonusFoods = [
   {
     name: 'RESISTANT STARCHES',
     foods: [
-      'Green banana',
       'Sweet Potato',
       'Yuca (cold)',
       'Rutabaga (raw)',
@@ -56,6 +55,8 @@ export const bonusFoods = [
       'Unsweetened dried apricots',
       'Unsweetened dried prunes',
       'Gooseberry',
+      'Durian',
+      'Jackfruit',
       'Grapefruit',
       'Pomelo',
       'Kiwi',
@@ -67,7 +68,9 @@ export const bonusFoods = [
       'Peach',
       'Pear',
       'Plum',
-      'Apple',
+      'Longans',
+      'Mangosteen',
+      'Soursop',
     ],
   },
   {
@@ -93,9 +96,10 @@ export const bonusFoods = [
     name: 'PROBIOTICS',
     foods: [
       'Organic Sauerkraut',
-      'Apple cider vinegar',
       'Passion fruit',
       'Kimchi',
+      'Raw milk',
+      'Wild honey',
     ],
   },
 ];
