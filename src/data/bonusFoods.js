@@ -8,7 +8,7 @@ export const bonusFoods = [
       'Fish',
       'Lamb',
       'Raw Dairy: Milk, Eggs, Cheese, Yogurt',
-      'Hemp Seeds',
+      'Hemp seeds',
       'Spirulina',
       'Moringa',
     ],

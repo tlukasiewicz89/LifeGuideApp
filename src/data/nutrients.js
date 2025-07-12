@@ -25,7 +25,7 @@ export const nutrientData = [
     foods: [
       'Flaxseed',
       'Perilla seeds',
-      'Hemp Seeds',
+      'Hemp seeds',
       'Camelina seeds',
       'Pumpkin seeds',
       'Seaweed',
@@ -38,7 +38,7 @@ export const nutrientData = [
     name: 'OMEGA 3',
     foods: [
       'Flax seeds',
-      'Hemp Seeds',
+      'Hemp seeds',
       'Camelina seeds',
       'Mackerel',
       'Herring',
@@ -50,7 +50,7 @@ export const nutrientData = [
   {
     name: 'OMEGA 7',
     foods: [
-      'Macadamia Nuts',
+      'Macadamia nuts',
       'Sea buckthorn berries',
       'Avocado',
       'Camelina seeds',
@@ -133,7 +133,7 @@ export const nutrientData = [
     foods: [
       'Oysters',
       'Pumpkin seeds',
-      'Hemp Seeds',
+      'Hemp seeds',
       'Sesame seeds',
       'Mussels',
       'Clams',
@@ -200,7 +200,7 @@ export const nutrientData = [
   {
     name: 'VITAMIN A 1',
     foods: [
-      'Beef Liver',
+      'Beef liver',
       'Goose liver',
       'Duck liver',
       'Roe',
@@ -244,7 +244,7 @@ export const nutrientData = [
       'Turkey',
       'Tuna',
       'Chicken Breast',
-      'Duck Liver',
+      'Duck liver',
       'Roe',
       'Mushrooms',
       'Seaweed',
@@ -295,13 +295,13 @@ export const nutrientData = [
   {
     name: 'VITAMIN B7 (BIOTIN)',
     foods: [
-      'Beef Liver',
-      'Duck Liver',
-      'Fish Roe',
+      'Beef liver',
+      'Duck liver',
+      'Fish roe',
       'Egg yolks',
       'Salmon',
       'Avocado',
-      'Sweet Potato',
+      'Sweet potato',
       'Mushrooms',
       'Raw milk',
     ],
@@ -309,10 +309,10 @@ export const nutrientData = [
   {
     name: 'VITAMIN B8 (INOSITOL)',
     foods: [
-      'Camel Liver',
+      'Camel liver',
       'Organ meats (liver)',
-      'Chicken Liver',
-      'Seasame seeds',
+      'Chicken liver',
+      'Sesame seeds',
       'Cantaloupe',
       'Marine Algae',
     ],
@@ -320,8 +320,8 @@ export const nutrientData = [
   {
     name: 'VITAMIN B9 (FOLATE)',
     foods: [
-      'Beef Liver',
-      'Duck Liver',
+      'Beef liver',
+      'Duck liver',
       'Fish Roe',
       'Asparagus',
       'Avocado',
@@ -332,7 +332,7 @@ export const nutrientData = [
   {
     name: 'VITAMIN B10',
     foods: [
-      'Beef Liver',
+      'Beef liver',
       'Lamb Liver',
       'Mushrooms',
       'Egg yolks',
@@ -350,7 +350,7 @@ export const nutrientData = [
   {
     name: 'VITAMIN B11',
     foods: [
-      'Beef Liver',
+      'Beef liver',
       'Lamb Liver',
       'Mushrooms',
       'Egg yolks',
@@ -400,7 +400,7 @@ export const nutrientData = [
   {
     name: 'VITAMIN B14',
     foods: [
-      'Beef Liver',
+      'Beef liver',
       'Lamb Liver',
       'Mushrooms',
       'Egg yolks',
@@ -419,14 +419,14 @@ export const nutrientData = [
   {
     name: 'VITAMIN B15',
     foods: [
-      'Beef Liver',
+      'Beef liver',
       'Lamb Liver',
       'Apricot Kernels',
       'Peach Kernels',
       'Egg yolks',
       'Guinea Pig Meat',
-      'Pumpkin Seeds',
-      'Sunflower Seeds',
+      'Pumpkin seeds',
+      'Sunflower seeds',
       'Seaweed',
       'Iguana Meat',
       'Freshwater Algae',
@@ -437,7 +437,7 @@ export const nutrientData = [
   {
     name: 'VITAMIN B16',
     foods: [
-      'Beef Liver',
+      'Beef liver',
       'Lamb Liver',
       'Apricot Kernels',
       'Peach Kernels',
@@ -554,10 +554,10 @@ export const nutrientData = [
     foods: [
       'Pumpkin seeds',
       'Cacao',
-      'Brazil nut',
+      'Brazil nuts',
       'Octopus',
-      'Beef Liver',
-      'Duck Liver',
+      'Beef liver',
+      'Duck liver',
       'Fish roe',
       'Clams',
       'Mussels',
