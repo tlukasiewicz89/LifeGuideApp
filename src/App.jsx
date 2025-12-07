@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { nutrientData } from './data/nutrients';
 import { bonusFoods } from './data/bonusFoods';
 import NutrientTable from './components/NutrientTable';
@@ -6,7 +6,10 @@ import { motion, AnimatePresence } from 'framer-motion';
 import TimerWidget from './components/TimerWidget';
 
 function App() {
-  const [inputFoods, setInputFoods] = useState([]);
+  const [inputFoods, setInputFoods] = useState(() => {
+    const saved = localStorage.getItem('inputFoods');
+    return saved ? JSON.parse(saved) : [];
+  });
   const [search, setSearch] = useState('');
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [showConfirmModal, setShowConfirmModal] = useState(false);
@@ -15,6 +18,10 @@ function App() {
   const allFoods = [...new Set(allNutrientFoods.flatMap(n => n.foods))];
 
   const normalize = str => str.toLowerCase().trim().replace(/s$/, '');
+
+  useEffect(() => {
+    localStorage.setItem('inputFoods', JSON.stringify(inputFoods));
+  }, [inputFoods]);
 
   const addFood = food => {
     if (!inputFoods.includes(food)) {
@@ -80,7 +87,7 @@ function App() {
         🧠 Nutrient Coverage Checker
       </h1>
 
-      <TimerWidget />
+      {/* <TimerWidget /> */}
 
       {/* Input Section */}
       <div className="relative max-w-2xl mx-auto mb-10">
