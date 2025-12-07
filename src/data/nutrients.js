@@ -674,7 +674,7 @@ export const nutrientData = [
     foods: [
       'Eggs',
       'Salmon',
-      'Sweet Potato',
+      'Sweet Potatoes',
       'Garlic',
       'Mango',
       'Bone Broth',

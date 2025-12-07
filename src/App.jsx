@@ -3,6 +3,7 @@ import { nutrientData } from './data/nutrients';
 import { bonusFoods } from './data/bonusFoods';
 import NutrientTable from './components/NutrientTable';
 import { motion, AnimatePresence } from 'framer-motion';
+import TimerWidget from './components/TimerWidget';
 
 function App() {
   const [inputFoods, setInputFoods] = useState([]);
@@ -74,10 +75,12 @@ function App() {
   );
 
   return (
-    <div className="min-h-screen p-6 font-sans bg-gradient-to-br from-[#f9f5f0] via-[#fefaf6] to-[#fffefc] text-gray-800">
+    <div className="relative min-h-screen p-6 font-sans bg-gradient-to-br from-[#f9f5f0] via-[#fefaf6] to-[#fffefc] text-gray-800">
       <h1 className="text-3xl font-extrabold mb-8 text-center bg-gradient-to-r from-amber-600 via-orange-400 to-yellow-300 bg-clip-text text-transparent animate-pulse">
         🧠 Nutrient Coverage Checker
       </h1>
+
+      <TimerWidget />
 
       {/* Input Section */}
       <div className="relative max-w-2xl mx-auto mb-10">
