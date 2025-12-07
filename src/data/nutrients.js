@@ -381,7 +381,7 @@ export const nutrientData = [
       'Beef Liver',
       'Lamb Liver',
       'Mushrooms',
-      'Egg yolks',
+      'Egg Yolks',
       'Guinea Pig Meat',
       'Raw Camel Milk',
       'Raw Goat Milk',
