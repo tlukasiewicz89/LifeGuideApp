@@ -198,7 +198,7 @@ export const nutrientData = [
     ],
   },
   {
-    name: 'VITAMIN A 1',
+    name: 'VITAMIN A1',
     foods: [
       'Beef Liver',
       'Goose Liver',
@@ -710,11 +710,11 @@ export const nutrientData = [
       'Dog Liver',
       'Guinea Pig Meat',
       'Iguana Meat',
-      'Deep sea squid',
+      'Squid',
       'Egg Yolks',
       'Snail Meat',
       'Raw Goat Milk',
-      'Raw yak Milk',
+      'Raw Yak Milk',
       'Raw Camel Milk',
       'Horseshoe Crab Hemolymph',
     ],
